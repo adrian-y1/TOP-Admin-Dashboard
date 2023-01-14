@@ -21,7 +21,58 @@
 .header {
     background-color: #fff;
     grid-area: header;
+    display: grid;
+    padding: 20px;
 }
+.header-search-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.search-bar {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.search-bar input {
+    border-radius: 25px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: #E2E8F0;
+    height: 70%;
+    align-self: center;
+}
+.search-bar img, .user img:first-child {
+    width: 25px;
+    align-self: center;
+    justify-self: center;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.user img:first-child {
+    justify-self: flex-end;
+}
+.user span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+.user img:last-child {
+    width: 50px;
+}
+
+.user-info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.user-info img {
+    width: 50px;
+}
+
 
 /* ///// Sidebar \\\\\ */
 .sidebar {
@@ -50,7 +101,6 @@
 
 .side-nav {
     display: grid;
-    gap: 20px;
 }
 .side-nav li {
     list-style: none;
@@ -63,12 +113,15 @@
     grid-template-columns: 50px 1fr;
     align-items: center;
     gap: 10px;
+    padding: 10px 0;
 }
 .side-nav li a img {
     width: 25px;
     justify-self: center;
 }
-
+.side-nav li a:hover {
+    background-color: rgba(246, 247, 250, 0.2);
+}
 /* ///// Main Content \\\\\ */
 .main-content {
     background-color: rgb(204, 178, 209);
