@@ -1,6 +1,6 @@
 # Admin Dashboard Template
 
-**Live site:** [Admin Dashboard](https://adrian-y1.github.io/TOP-admin-dashboard/)
+**Live site:** [Admin Dashboard](https://adrian-y1.github.io/TOP-Admin-Dashboard/)
 
 This is an Admin Dashboard template created as the final project of [The Odin Project's Intermediate HTML & CSS Course](https://www.theodinproject.com/lessons/intermediate-html-and-css-admin-dashboard)
 
